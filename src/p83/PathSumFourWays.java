@@ -6,6 +6,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
+/* Solves the Path sum: four ways problem available at: https://projecteuler.net/problem=83.
+*  The solution is an implementation of the A* algorithm and employs a simple, yet effective heurstic which
+*  guesses the current cost to the final cell.
+*/
+
 public class PathSumFourWays {
 	
 	// Function for getting entire text from file as string
